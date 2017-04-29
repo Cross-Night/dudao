@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="OxM-Jp-0hS">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="9d5-oZ-K5n">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kL3-gP-olD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="OxM-Jp-0hS" customClass="loginViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kId-Q7-nzg"/>
+                        <viewControllerLayoutGuide type="bottom" id="xbu-nX-iD8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="s9Y-cT-qPW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="phone-round-list-bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="gcv-mc-C8K">
+                                <rect key="frame" x="47" y="71" width="280" height="90"/>
+                                <animations/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="密码" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="prv-Ic-LD2">
+                                <rect key="frame" x="87" y="117" width="240" height="44"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z0i-EA-aib">
+                                <rect key="frame" x="47" y="176" width="280" height="44"/>
+                                <animations/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" name="STHeitiSC-Medium" family="Heiti SC" pointSize="20"/>
+                                <state key="normal" title="登录" backgroundImage="phone-btn-550x88.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" title="登 录" backgroundImage="Login_btn_selected.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="loginBtnDidClicked:" destination="OxM-Jp-0hS" eventType="touchUpInside" id="Y0w-25-YhD"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="phone-login-acc.png" highlightedImage="phone-login-pwd.png" translatesAutoresizingMaskIntoConstraints="NO" id="wHb-1r-Nbl">
+                                <rect key="frame" x="47" y="70" width="45" height="45"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="phone-login-pwd.png" translatesAutoresizingMaskIntoConstraints="NO" id="4l9-Jt-D4h">
+                                <rect key="frame" x="47" y="117" width="45" height="45"/>
+                                <animations/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="18u-EC-jnt">
+                                <rect key="frame" x="47" y="115" width="280" height="1"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.9215686917" green="0.9215686917" blue="0.9450981021" alpha="1" colorSpace="deviceRGB"/>
+                            </view>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a2d-91-ma4">
+                                <rect key="frame" x="113" y="235" width="51" height="31"/>
+                                <animations/>
+                            </switch>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="记住密码" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ubP-LH-TPG">
+                                <rect key="frame" x="51" y="240" width="68" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                <color key="textColor" red="0.65005990329999996" green="0.64612014630000003" blue="0.65399966030000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3wu-Gq-N4d">
+                                <rect key="frame" x="227" y="238" width="92" height="30"/>
+                                <animations/>
+                                <state key="normal" title="忘记密码？">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="forgetPswClicked:" destination="OxM-Jp-0hS" eventType="touchUpInside" id="w9Q-s5-orK"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="学生工作评价与学风督导系统" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Puy-zT-XM3">
+                                <rect key="frame" x="27" y="40" width="320" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <color key="textColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="帐号" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="WJz-5H-Pyc">
+                                <rect key="frame" x="87" y="71" width="240" height="44"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="forgetPswBtn" destination="3wu-Gq-N4d" id="gWu-p4-NTX"/>
+                        <outlet property="loginBtn" destination="z0i-EA-aib" id="bA1-wJ-ec7"/>
+                        <outlet property="password" destination="prv-Ic-LD2" id="BpM-Zz-d9e"/>
+                        <outlet property="pswSwitch" destination="a2d-91-ma4" id="Qqq-5a-YQ5"/>
+                        <outlet property="userName" destination="WJz-5H-Pyc" id="5mh-Nb-70i"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-522.5" y="107.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Login_btn_selected.png" width="552" height="165"/>
+        <image name="phone-btn-550x88.png" width="550" height="88"/>
+        <image name="phone-login-acc.png" width="88" height="88"/>
+        <image name="phone-login-pwd.png" width="88" height="88"/>
+        <image name="phone-round-list-bg.png" width="552" height="165"/>
+    </resources>
+</document>

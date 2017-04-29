@@ -1,0 +1,24 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "c721f306-af81-46ab-948d-8a508447cc51++8367" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "c721f306-af81-46ab-948d-8a508447cc51++8367" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C3DBC3E8-78FE-47AA-B6AF-81266AA4463A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "c721f306-af81-46ab-948d-8a508447cc51++8367" : "xiaoxuntong\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "xiaoxuntong",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "xiaoxuntong.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/code.taobao.org\/svn\/iosxxt",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "c721f306-af81-46ab-948d-8a508447cc51++8367"
+    }
+  ]
+}
